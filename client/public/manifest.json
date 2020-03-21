@@ -1,0 +1,18 @@
+{
+  "short_name": "Tele-Party",
+  "name": "Tele-Party",
+  "description": "Event from the couch",
+
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "136x156 64x64 32x32 24x24 16x16",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#303030",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#303030"
+    }
