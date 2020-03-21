@@ -3,13 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "color": "^3.1.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.1.2",
     "react-scripts": "0.9.5",
     "styled-components": "^5.0.1"
   },
-  "devDependencies": {},
+  "prettier": {
+    "singleQuote": true,
+    "tabWidth": 4,
+    "trailingComma": "all",
+    "arrowParens": "always",
+    "bracketSpacing": true,
+    "useTabs": true
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

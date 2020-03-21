@@ -1,4 +1,4 @@
-import { css } from 'styled-components';
+import styled, { css } from 'styled-components';
 import Color from 'color';
 
 const baseColor = '#161616';
@@ -50,7 +50,8 @@ export const length = {
 
 export const font = {
 	title: css`
-		font-family: Share Tech, sans-serif;
+		font-family: "Roboto", sans-serif;
+		font-weight: 700;
 		font-size: 36px;
 		letter-spacing: 2px;
 	`,
@@ -167,22 +168,22 @@ export const components = {
 		}
 	`,
 	button: css`
-		padding: 2px 7px;
+		padding: 4px 10px;
 		height: 36px;
 		letter-spacing: 1px;
 		line-height: 30px;
 		${font.text};
 		background-color: ${color.siteBG2};
 		${cursor.clickable};
-		border: 1px solid ${color.primary};
-		border-radius: ${length.radius};
 		transition: background-color 0.1s;
 		font-size: 14px;
+		  border-radius: 4px;
+
 		&:focus {
 			outline: none;
 		}
 		&:hover {
-			background-color: ${colorAdjust.darken(color.siteBG2, 0.1)};
+			background-color: ${color.siteBG5};
 		}
 	`,
 	textarea: css`
